@@ -322,7 +322,7 @@ header {
   fill: currentColor;
   align-items: center;
   display: flex;
-  transition-property: color;
+  transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -487,7 +487,7 @@ footer .studio {
   min-width: 73px;
   text-align: center;
   background-color: var(--background-color-insight);
-  transition-property: color, box-shadow;
+  transition-property: color, box-shadow, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
